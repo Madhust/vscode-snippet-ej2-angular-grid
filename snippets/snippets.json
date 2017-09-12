@@ -42,7 +42,7 @@
             "\tconstructor() { }",
             "",
             "\tngOnInit() {",
-            "\t\tthis.${2:data}=${6:[]}",
+            "\t\tthis.${2:data}=${6:[]};",
             "\t}$0",
             "}"
         ]
@@ -71,8 +71,8 @@
             "\tconstructor() { }",
             "",
             "\tngOnInit() {",
-            "\t\tthis.data = ${5:[]}",
-            "\t\tthis.pageOptions = ${6:{ currentPage: 1, pageSize: 5 } }",
+            "\t\tthis.data = ${5:[]};",
+            "\t\tthis.pageOptions = ${6:{ currentPage: 1, pageSize: 5 }; }",
             "\t}$0",
             "}"
         ]
@@ -89,7 +89,7 @@
             "\ttemplate: `<ej-grid [dataSource]='data' [allowGrouping]='true' [groupSettings]='groupOptions'>",
             "\t\t<e-columns>",
             "\t\t\t<e-column field='${2:Column1}'></e-column>",
-            "\t\t\t<e-column field=${3:Column2}></e-column>",
+            "\t\t\t<e-column field='${3:Column2}'></e-column>",
             "\t\t</e-columns>",
             "\t</ej-grid>`,",
             "\tproviders:[GroupService]",
@@ -101,8 +101,8 @@
             "\tconstructor() { }",
             "",
             "\tngOnInit() {",
-            "\t\tthis.data = ${5:[]}",
-            "\t\tthis.groupOptions = ${6:{ columns: ['${2:Column1}'] } }",
+            "\t\tthis.data = ${5:[]};",
+            "\t\tthis.groupOptions = ${6:{ columns: ['${2:Column1}'] }; }",
             "\t}$0",
             "}"
         ]
@@ -130,7 +130,7 @@
             "\tconstructor() { }",
             "",
             "\tngOnInit() {",
-            "\t\tthis.data = ${5:[]}",
+            "\t\tthis.data = ${5:[]};",
             "\t}$0",
             "}"
         ]
@@ -147,7 +147,7 @@
             "\ttemplate: `<ej-grid [dataSource]='data' [allowSorting]='true' [sortSettings]='sortOptions'>",
             "\t\t<e-columns>",
             "\t\t\t<e-column field='${2:Column1}'></e-column>",
-            "\t\t\t<e-column field=${3:Column2}></e-column>",
+            "\t\t\t<e-column field='${3:Column2}'></e-column>",
             "\t\t</e-columns>",
             "\t</ej-grid>`,",
             "\tproviders:[SortService]",
@@ -159,8 +159,8 @@
             "\tconstructor() { }",
             "",
             "\tngOnInit() {",
-            "\t\tthis.data = ${5:[]}",
-            "\t\tthis.sortOptions = ${6:{ columns: [{ field: '${2:Column1}', direction: 'ascending' }] } }",
+            "\t\tthis.data = ${5:[]};",
+            "\t\tthis.sortOptions = ${6:{ columns: [{ field: '${2:Column1}', direction: 'ascending'}}]};",
             "\t}$0",
             "}"
         ]
@@ -192,12 +192,12 @@
             "\tproviders:[AggregateService]",
             "})",
             "",
-            "export class ${4:App}Component implements OnInit {",
+            "export class ${5:App}Component implements OnInit {",
             "\tpublic data;",
             "\tconstructor() { }",
             "",
             "\tngOnInit() {",
-            "\t\tthis.data = ${5:[]}",
+            "\t\tthis.data = ${6:[]};",
             "\t}$0",
             "}"
         ]

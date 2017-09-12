@@ -2,10 +2,10 @@
     "name": "vscode-ej2-angular-grid-snippet",
     "displayName": "TypeScript Snippet for Essential Angular Grid component",
     "description": "TypeScript Snippet for Essential Angular Grid component",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "madhusudhananp",
     "engines": {
-        "vscode": "^1.16.0"
+        "vscode": "^1.8.0"
     },
     "galleryBanner": {
         "color": "#0273D4",
