@@ -7,6 +7,10 @@
     "engines": {
         "vscode": "^1.16.0"
     },
+    "galleryBanner": {
+        "color": "#0273D4",
+        "theme": "dark"
+    },
     "categories": [
         "Snippets",
         "Other"
