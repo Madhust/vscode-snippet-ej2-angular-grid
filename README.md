@@ -1,5 +1,7 @@
 # Essential Angular Grid snippet for VSCode
 
+![Logo](./images/extlogo.png)
+
 This extension will add TypeScript snippet for Essential Angular Grid.
 
 ## TypeScript Snippets

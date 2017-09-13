@@ -7,6 +7,7 @@
     "engines": {
         "vscode": "^1.8.0"
     },
+    "icon": "images/extlogo.png",
     "galleryBanner": {
         "color": "#0273D4",
         "theme": "dark"
